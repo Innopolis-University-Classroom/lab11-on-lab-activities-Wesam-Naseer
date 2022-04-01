@@ -47,6 +47,6 @@ public class Problem3_Adapter{
         Adapter adapter=new Adapter(audio);
         PlayerDevice device=new PlayerDevice();
         device.playMp4(media);
-        adapter.playMp4(adapter);
+        device.playMp4(adapter);
     }
 }
